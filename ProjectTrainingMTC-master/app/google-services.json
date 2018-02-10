@@ -1,0 +1,60 @@
+{
+  "project_info": {
+
+    "project_number": "509911813488",
+    "firebase_url": "https://project-training-mtc.firebaseio.com",
+    "project_id": "project-training-mtc",
+    "storage_bucket": "project-training-mtc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+
+        "mobilesdk_app_id": "1:509911813488:android:80280e68df453f66",
+        "android_client_info": {
+          "package_name": "com.example.abedc.projektraining"
+        }
+      },
+      "oauth_client": [
+        {
+
+          "client_id": "509911813488-ubelrns5s77bjld9jdbdt1hqed5cp1e8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.abedc.projektraining",
+            "certificate_hash": "cd06a098e2784114bb8e9ce01737daf3356782cf"
+          }
+        },
+        {
+          "client_id": "509911813488-rp6p1168lfl3libavfs4srp29i69dm46.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+
+          "current_key": "AIzaSyC-QMYFsjCdKlKeNAZI_yWfdP01J-Q30pU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "509911813488-rp6p1168lfl3libavfs4srp29i69dm46.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

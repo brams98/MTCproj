@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#2ca1c7"
+    tools:context="com.example.abedc.projektraining.AddActivity">
+
+    <EditText
+        android:id="@+id/etInputTittle_AddActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="80dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/rounded"
+        android:ems="200"
+        android:hint="Input Title : "
+        android:inputType="text"
+        android:paddingLeft="10dp"
+        android:textColorHint="@color/common_google_signin_btn_text_dark_focused" />
+
+    <EditText
+        android:id="@+id/etInputLink_AddActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="80dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rounded"
+        android:ems="200"
+        android:hint="Input Link:"
+        android:inputType="text"
+        android:paddingLeft="10dp"
+        android:textColorHint="@color/common_google_signin_btn_text_dark_focused" />
+
+    <EditText
+        android:id="@+id/etInputDescription_AddActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="80dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rounded"
+        android:ems="200"
+        android:hint="Input Description:"
+        android:inputType="text"
+        android:paddingLeft="10dp"
+        android:textColorHint="@color/common_google_signin_btn_text_dark_focused" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ini Tempat Buat Upload Icon"/>
+
+    <EditText
+        android:id="@+id/etInputCreator_AddActivity"
+        style="@style/Widget.AppCompat.Light.AutoCompleteTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="80dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rounded"
+        android:ems="200"
+        android:hint="Input Creator:"
+        android:inputType="text"
+        android:paddingLeft="10dp"
+        android:textColorHint="@color/common_google_signin_btn_text_dark_focused" />
+
+    <Button
+        android:id="@+id/btnPublis_AddActivity"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/rounded"
+
+        android:paddingLeft="60dp"
+        android:paddingRight="60dp"
+        android:shadowColor="#606263"
+        android:shadowDx="300"
+        android:shadowDy="200"
+        android:text="Publish" />
+
+
+</LinearLayout>
